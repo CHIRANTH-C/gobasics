@@ -6,7 +6,7 @@ import (
 )
 
 // This is ReadThisFile method
-func ReadThisFile() {
+func ReadFile1() {
 	data, err := ioutil.ReadFile("myfile.txt")
 	if err != nil {
 		fmt.Println("Could not read file with error : ", err)
