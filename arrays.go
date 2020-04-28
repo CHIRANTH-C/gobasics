@@ -8,4 +8,7 @@ func ArrayForLoop() {
 	for i, v := range names {
 		fmt.Println(i, v)
 	}
+	for i := range names {
+		fmt.Println(names[i])
+	}
 }
