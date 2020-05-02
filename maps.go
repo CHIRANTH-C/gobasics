@@ -18,7 +18,8 @@ func Mapsprog() {
 	emplist["Rakesh"] = empname{"Rakesh", "V Shetty"}
 
 	for mapkey, mapvalue := range emplist {
-		fmt.Printf("Empkey : %v \n, Empdetails : $v \n ", mapkey, mapvalue)
+		fmt.Printf("Empkey : %s", mapkey)
+		fmt.Println(mapvalue)
 	}
 	fmt.Println()
 	fmt.Println("*****************************")
