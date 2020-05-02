@@ -8,6 +8,8 @@ func Mapsprog() {
 		lname string
 	}
 
+	fmt.Println()
+
 	fmt.Println("*****************************")
 
 	emplist := make(map[string]empname)
@@ -18,6 +20,6 @@ func Mapsprog() {
 	for mapkey, mapvalue := range emplist {
 		fmt.Printf("Empkey : %v \n, Empdetails : $v \n ", mapkey, mapvalue)
 	}
-
+	fmt.Println()
 	fmt.Println("*****************************")
 }
